@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button'
 import logo from "../Images/logo192.png"
+import NavBar from './NavBar'
 
 const About = () => {
     // Scenerio1
@@ -52,6 +53,7 @@ const About = () => {
     }
     return (
         <div className='mt-5'>
+            <NavBar/>
             <h2 className='text-secondary text-center'>About Section</h2>
             <img src={logo} alt='Logo' />
             <h1>{username}</h1>
