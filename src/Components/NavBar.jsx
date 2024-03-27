@@ -22,8 +22,9 @@ const NavBar = ()=>{
             <ul className="navigations">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li>Contacts</li>
-                <li>Services</li>
+                <li><Link to="/contact">Contacts</Link></li>
+                <li><Link to="/products">Products</Link></li>
+                <li><Link to="/services">Servicess</Link></li>
             </ul>
             <div style={{display : "flex", alignItems : "center", justifyContent : "space-between", gap: "20px"}}>
                 <button style={buttonStyle}>Sign Up</button>

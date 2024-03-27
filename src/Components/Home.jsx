@@ -19,7 +19,6 @@ const Home = () => {
                 </div>
             ) : (
                 <>
-                    <NavBar />
                     <div>
                         <h1 className="text-center my-5 text-primary">Home Page</h1>
                         <p className="col-10 col-md-8 col-lg-8 mx-auto p-3 shadow rounded-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus voluptatem sit ab repellat commodi ipsum assumenda in! Consectetur possimus accusantium commodi laudantium amet eligendi ex, perferendis velit officiis et!

@@ -26,8 +26,6 @@ const Services = () => {
 
   return (
     <div>
-      <NavBar/>
-
       <h1 className='text-primary text-center my-2'>
         Services
       </h1>
